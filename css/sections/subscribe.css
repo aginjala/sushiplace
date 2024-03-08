@@ -1,0 +1,76 @@
+.subscription {
+    padding: 64px;
+    background-color: var(--primary-color);
+
+    flex-direction: column;
+    overflow: hidden;
+
+    background-image: url("../../assets/japanese_sushi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.subscription h2 {
+    font-size: 88px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+    line-height: 133px;
+    color: var(--color-creamson);
+    text-align: center;
+}
+
+.subscription p {
+    font-size: 18px;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 600;
+    line-height: 36px;
+    margin-top: 32px;
+    color: var(--color-creamson);
+}
+
+.subscription__form {
+    min-width: 480px;
+    margin-top: 40px;
+    padding: 14px 14px 14px 24px;
+
+    display: flex;
+    gap: 10px;
+
+    border: 1px solid var(--color-creamson);
+    border-radius: 46px;
+}
+
+.subscription__form input {
+    flex: 1;
+    
+    font-size: 18px;
+    font-family: var(--plus-jakarta-sans);
+
+    color: var(--secondary-color);
+    font-weight: 700;
+
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.subscription__form input::placeholder {
+    color: var(--color-creamson);
+}
+
+.subscription__form button {
+    padding: 20px;
+    min-width: 180px;
+    font-size: 18px;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 700;
+
+    color: var(--color-creamson);
+    background: var(--black-400);
+
+    border-radius: 46px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
